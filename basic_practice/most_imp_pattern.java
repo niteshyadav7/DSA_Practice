@@ -1,11 +1,3 @@
-# DSA_Practice
-
-<!-- PATTERN SOLVE KRNE KA NEW TRICKS -->
-
-- DIVIDE KAR LO ALG-ALG
-- AGAR SEEDHA NHI HO TO ::PHLE APNR MAAN MEE SEEDHA SOLVE KRNA FIR REVERSE LOOP LGA KE SOLVE.
-
-```
 import java.util.Scanner;
 
 public class most_imp_pattern {
@@ -38,5 +30,3 @@ public class most_imp_pattern {
         }
     }
 }
-
-```
