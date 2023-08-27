@@ -15,11 +15,29 @@ public class Pattern {
             i++;
         }
     }
-    // public static void
+
+    public static void rectangle2(int n) {
+
+        int row = 1;
+        while (row <= n) {
+            int col = 1;
+            while (col <= n) {
+                int printed = row + col - 1;
+                System.out.print(printed);
+                col++;
+            }
+            System.out.println();
+            row++;
+        }
+    }
+
+    public static void triangle(int n) {
+
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        rectangle1(n);
+        // rectangle2(n);
     }
 }
